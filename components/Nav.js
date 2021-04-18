@@ -12,9 +12,6 @@ const Nav = () => {
                     <Link href='/about'> About </Link>
                 </li>
             </ul>
-            <div className="text-center text-warning">
-                <h4>রমজানের শুভেচ্ছা</h4>
-            </div>
         </nav>
     );
 };
