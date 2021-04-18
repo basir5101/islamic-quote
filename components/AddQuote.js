@@ -33,7 +33,7 @@ const AddQuote = () => {
     };
 
     return (
-        <div className = 'mb-5'>
+        <section className = 'mb-5'>
             {
                 showQuoteForm ? <form>
                 <div className="form-group">
@@ -53,7 +53,7 @@ const AddQuote = () => {
 
         <button onClick = {() => setShowQuoteForm(true)} className = 'btn btn-success'> Add New Quote </button>
             }
-        </div>
+        </section>
     );
 };
 
